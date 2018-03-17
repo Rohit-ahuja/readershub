@@ -299,7 +299,7 @@ ReadersHub — Share book recommendations with your friends, shop, review
   </div>
 
   <div class="formBox">
-    <input type="submit" value="Sign in" tabindex="4" class="gr-button gr-button--dark" />
+    <input type="submit" value="Sign in" tabindex="4" class="gr-button gr-button--dark "name="signin"/>
     <input type="hidden" name="n" value="880455">
   </div>
 
