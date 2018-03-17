@@ -16,6 +16,8 @@ if(isset($_POST['signin']))
 		echo "hello4";
 		$umail=$row['email'];
 		$upass=$row['password'];
+		$id=$row['id'];
+		$_SESSION['id']=$id;
 		if(($email==$umail)&&($pass==$upass))
 		{
 			echo "hello5";
