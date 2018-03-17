@@ -285,13 +285,13 @@ ReadersHub — Share book recommendations with your friends, shop, review
 <form name="sign_in" id="sign_in" action="signin.php" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="qFhD1yERbm9EhaGN/9jbnog3Kh0xMR1Uyox+LxbAJUcdyqenm1nmGuK1E9MjMXD/Q0jv0HIn9hfgc6n/I5i7vA==" />
 
   <div class="formBox">
-    <input id="userSignInFormEmail" type="email" name="user[email]" placeholder="Email address" tabindex="1"><br>
+    <input id="userSignInFormEmail" type="email" name="email" placeholder="Email address" tabindex="1"><br>
     <input type="checkbox" id="remember_me" name="remember_me" checked tabindex="3"><label for="remember_me" class="greyText">Remember me</label>
   </div>
 
   <div class="formBox">
     <div style="position:relative">
-      <input value="" placeholder="Password" tabindex="2" type="password" name="user[password]" id="user_password" />
+      <input value="" placeholder="Password" tabindex="2" type="password" name="password" id="user_password" />
       <label for="user_password" id="userPasswordLabel" class="greyText">Password</label>
       <br>
       <a class="greyText" id="userForgotPassword" rel="nofollow" href="/user/forgot_password">Forgot it?</a>
@@ -317,15 +317,15 @@ New here? Create a free account!
 
 <form name="createForm" id="userSignupForm" autocomplete="off" action="signup.php" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="QBzXxVb+w9w9ZbPPwPX082Vjs/UEOsf1/WcNALkIQ7f1jjO17LZLqZtVAZEcHF+Srhx2OEcsLLbXmNrQjFDdTA==" />
   <div class="fieldPara">
-    <input placeholder="Name" type="text" name="user[first_name]" id="user_first_name" />
+    <input placeholder="Name" type="text" name="first_name" id="user_first_name" />
   </div>
 
   <div class="fieldPara">
-    <input placeholder="Email Address" type="email" name="user[email]" id="user_email" />
+    <input placeholder="Email Address" type="email" name="email" id="user_email" />
   </div>
 
     <div class="fieldPara">
-      <input id="user_password_signup" placeholder="Password" maxlength="128" size="128" type="password" name="user[password]" />
+      <input id="user_password_signup" placeholder="Password" maxlength="128" size="128" type="password" name="password" />
       <label id="userPasswordSignupLabel" for="user_password_signup" class="greyText">Password</label>
     </div>
 
