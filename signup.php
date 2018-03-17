@@ -15,6 +15,7 @@
 		$q1 = "insert into login values('$name','$email','$pass',$id)";
 		$res = mysqli_query($con, $q1);
 		echo "Register Success";
+		header("Location:index.php");
 	}
 ?>
 		
